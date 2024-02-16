@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9437ED392B7FCFA400F60D48 /* POCCameraSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9437ED382B7FCFA400F60D48 /* POCCameraSwiftUIApp.swift */; };
+		9437ED3B2B7FCFA400F60D48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9437ED3A2B7FCFA400F60D48 /* ContentView.swift */; };
+		9437ED3D2B7FCFA500F60D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9437ED3C2B7FCFA500F60D48 /* Assets.xcassets */; };
+		9437ED412B7FCFA500F60D48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9437ED402B7FCFA500F60D48 /* Preview Assets.xcassets */; };
+		9437ED4B2B7FCFA500F60D48 /* POCCameraSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9437ED4A2B7FCFA500F60D48 /* POCCameraSwiftUITests.swift */; };
+		9437ED552B7FCFA500F60D48 /* POCCameraSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9437ED542B7FCFA500F60D48 /* POCCameraSwiftUIUITests.swift */; };
+		9437ED572B7FCFA500F60D48 /* POCCameraSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9437ED562B7FCFA500F60D48 /* POCCameraSwiftUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9437ED472B7FCFA500F60D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9437ED2D2B7FCFA400F60D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9437ED342B7FCFA400F60D48;
+			remoteInfo = POCCameraSwiftUI;
+		};
+		9437ED512B7FCFA500F60D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9437ED2D2B7FCFA400F60D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9437ED342B7FCFA400F60D48;
+			remoteInfo = POCCameraSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9437ED352B7FCFA400F60D48 /* POCCameraSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POCCameraSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9437ED382B7FCFA400F60D48 /* POCCameraSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCCameraSwiftUIApp.swift; sourceTree = "<group>"; };
+		9437ED3A2B7FCFA400F60D48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9437ED3C2B7FCFA500F60D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9437ED3E2B7FCFA500F60D48 /* POCCameraSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = POCCameraSwiftUI.entitlements; sourceTree = "<group>"; };
+		9437ED402B7FCFA500F60D48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9437ED462B7FCFA500F60D48 /* POCCameraSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POCCameraSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9437ED4A2B7FCFA500F60D48 /* POCCameraSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCCameraSwiftUITests.swift; sourceTree = "<group>"; };
+		9437ED502B7FCFA500F60D48 /* POCCameraSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POCCameraSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9437ED542B7FCFA500F60D48 /* POCCameraSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCCameraSwiftUIUITests.swift; sourceTree = "<group>"; };
+		9437ED562B7FCFA500F60D48 /* POCCameraSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCCameraSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9437ED322B7FCFA400F60D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9437ED432B7FCFA500F60D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9437ED4D2B7FCFA500F60D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9437ED2C2B7FCFA400F60D48 = {
+			isa = PBXGroup;
+			children = (
+				9437ED372B7FCFA400F60D48 /* POCCameraSwiftUI */,
+				9437ED492B7FCFA500F60D48 /* POCCameraSwiftUITests */,
+				9437ED532B7FCFA500F60D48 /* POCCameraSwiftUIUITests */,
+				9437ED362B7FCFA400F60D48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9437ED362B7FCFA400F60D48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9437ED352B7FCFA400F60D48 /* POCCameraSwiftUI.app */,
+				9437ED462B7FCFA500F60D48 /* POCCameraSwiftUITests.xctest */,
+				9437ED502B7FCFA500F60D48 /* POCCameraSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9437ED372B7FCFA400F60D48 /* POCCameraSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				9437ED382B7FCFA400F60D48 /* POCCameraSwiftUIApp.swift */,
+				9437ED3A2B7FCFA400F60D48 /* ContentView.swift */,
+				9437ED3C2B7FCFA500F60D48 /* Assets.xcassets */,
+				9437ED3E2B7FCFA500F60D48 /* POCCameraSwiftUI.entitlements */,
+				9437ED3F2B7FCFA500F60D48 /* Preview Content */,
+			);
+			path = POCCameraSwiftUI;
+			sourceTree = "<group>";
+		};
+		9437ED3F2B7FCFA500F60D48 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9437ED402B7FCFA500F60D48 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9437ED492B7FCFA500F60D48 /* POCCameraSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9437ED4A2B7FCFA500F60D48 /* POCCameraSwiftUITests.swift */,
+			);
+			path = POCCameraSwiftUITests;
+			sourceTree = "<group>";
+		};
+		9437ED532B7FCFA500F60D48 /* POCCameraSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9437ED542B7FCFA500F60D48 /* POCCameraSwiftUIUITests.swift */,
+				9437ED562B7FCFA500F60D48 /* POCCameraSwiftUIUITestsLaunchTests.swift */,
+			);
+			path = POCCameraSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9437ED342B7FCFA400F60D48 /* POCCameraSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9437ED5A2B7FCFA500F60D48 /* Build configuration list for PBXNativeTarget "POCCameraSwiftUI" */;
+			buildPhases = (
+				9437ED312B7FCFA400F60D48 /* Sources */,
+				9437ED322B7FCFA400F60D48 /* Frameworks */,
+				9437ED332B7FCFA400F60D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POCCameraSwiftUI;
+			productName = POCCameraSwiftUI;
+			productReference = 9437ED352B7FCFA400F60D48 /* POCCameraSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9437ED452B7FCFA500F60D48 /* POCCameraSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9437ED5D2B7FCFA500F60D48 /* Build configuration list for PBXNativeTarget "POCCameraSwiftUITests" */;
+			buildPhases = (
+				9437ED422B7FCFA500F60D48 /* Sources */,
+				9437ED432B7FCFA500F60D48 /* Frameworks */,
+				9437ED442B7FCFA500F60D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9437ED482B7FCFA500F60D48 /* PBXTargetDependency */,
+			);
+			name = POCCameraSwiftUITests;
+			productName = POCCameraSwiftUITests;
+			productReference = 9437ED462B7FCFA500F60D48 /* POCCameraSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9437ED4F2B7FCFA500F60D48 /* POCCameraSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9437ED602B7FCFA500F60D48 /* Build configuration list for PBXNativeTarget "POCCameraSwiftUIUITests" */;
+			buildPhases = (
+				9437ED4C2B7FCFA500F60D48 /* Sources */,
+				9437ED4D2B7FCFA500F60D48 /* Frameworks */,
+				9437ED4E2B7FCFA500F60D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9437ED522B7FCFA500F60D48 /* PBXTargetDependency */,
+			);
+			name = POCCameraSwiftUIUITests;
+			productName = POCCameraSwiftUIUITests;
+			productReference = 9437ED502B7FCFA500F60D48 /* POCCameraSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9437ED2D2B7FCFA400F60D48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9437ED342B7FCFA400F60D48 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					9437ED452B7FCFA500F60D48 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 9437ED342B7FCFA400F60D48;
+					};
+					9437ED4F2B7FCFA500F60D48 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 9437ED342B7FCFA400F60D48;
+					};
+				};
+			};
+			buildConfigurationList = 9437ED302B7FCFA400F60D48 /* Build configuration list for PBXProject "POCCameraSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9437ED2C2B7FCFA400F60D48;
+			productRefGroup = 9437ED362B7FCFA400F60D48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9437ED342B7FCFA400F60D48 /* POCCameraSwiftUI */,
+				9437ED452B7FCFA500F60D48 /* POCCameraSwiftUITests */,
+				9437ED4F2B7FCFA500F60D48 /* POCCameraSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9437ED332B7FCFA400F60D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9437ED412B7FCFA500F60D48 /* Preview Assets.xcassets in Resources */,
+				9437ED3D2B7FCFA500F60D48 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9437ED442B7FCFA500F60D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9437ED4E2B7FCFA500F60D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9437ED312B7FCFA400F60D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9437ED3B2B7FCFA400F60D48 /* ContentView.swift in Sources */,
+				9437ED392B7FCFA400F60D48 /* POCCameraSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9437ED422B7FCFA500F60D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9437ED4B2B7FCFA500F60D48 /* POCCameraSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9437ED4C2B7FCFA500F60D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9437ED572B7FCFA500F60D48 /* POCCameraSwiftUIUITestsLaunchTests.swift in Sources */,
+				9437ED552B7FCFA500F60D48 /* POCCameraSwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9437ED482B7FCFA500F60D48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9437ED342B7FCFA400F60D48 /* POCCameraSwiftUI */;
+			targetProxy = 9437ED472B7FCFA500F60D48 /* PBXContainerItemProxy */;
+		};
+		9437ED522B7FCFA500F60D48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9437ED342B7FCFA400F60D48 /* POCCameraSwiftUI */;
+			targetProxy = 9437ED512B7FCFA500F60D48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9437ED582B7FCFA500F60D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9437ED592B7FCFA500F60D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9437ED5B2B7FCFA500F60D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = POCCameraSwiftUI/POCCameraSwiftUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"POCCameraSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 7Y3U7L4DFL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leohsmedeiros.POCCameraSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9437ED5C2B7FCFA500F60D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = POCCameraSwiftUI/POCCameraSwiftUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"POCCameraSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 7Y3U7L4DFL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leohsmedeiros.POCCameraSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9437ED5E2B7FCFA500F60D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Y3U7L4DFL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leohsmedeiros.POCCameraSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POCCameraSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/POCCameraSwiftUI";
+			};
+			name = Debug;
+		};
+		9437ED5F2B7FCFA500F60D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Y3U7L4DFL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leohsmedeiros.POCCameraSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POCCameraSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/POCCameraSwiftUI";
+			};
+			name = Release;
+		};
+		9437ED612B7FCFA500F60D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Y3U7L4DFL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leohsmedeiros.POCCameraSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = POCCameraSwiftUI;
+			};
+			name = Debug;
+		};
+		9437ED622B7FCFA500F60D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Y3U7L4DFL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leohsmedeiros.POCCameraSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = POCCameraSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9437ED302B7FCFA400F60D48 /* Build configuration list for PBXProject "POCCameraSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9437ED582B7FCFA500F60D48 /* Debug */,
+				9437ED592B7FCFA500F60D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9437ED5A2B7FCFA500F60D48 /* Build configuration list for PBXNativeTarget "POCCameraSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9437ED5B2B7FCFA500F60D48 /* Debug */,
+				9437ED5C2B7FCFA500F60D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9437ED5D2B7FCFA500F60D48 /* Build configuration list for PBXNativeTarget "POCCameraSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9437ED5E2B7FCFA500F60D48 /* Debug */,
+				9437ED5F2B7FCFA500F60D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9437ED602B7FCFA500F60D48 /* Build configuration list for PBXNativeTarget "POCCameraSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9437ED612B7FCFA500F60D48 /* Debug */,
+				9437ED622B7FCFA500F60D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9437ED2D2B7FCFA400F60D48 /* Project object */;
+}
